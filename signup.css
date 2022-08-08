@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root {
+    --color-primary: #6c63ff;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-varient: rgba(247, 88, 66, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background-color: var(--color-white);
+}
+
+a {
+    color: #DC768C;
+    text-decoration: none;
+}
+
+p {
+    width: 24rem;
+    margin: 2rem;
+   
+}
+
+h2 {
+    margin: 2rem;
+    color:var(--color-warning)
+}
+.container__top {
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    border: 1rem solid transparent;
+    border-radius: 1rem;
+    margin: 5% 38% 0 38%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.login {
+    display: flex;
+    font-size: 0.8rem;
+    float: right;
+}
+
+.name__container {
+    margin: 2rem;
+}
+
+.names {
+    display: flex;
+    gap: 6.5rem;
+    line-height: 2rem;
+}
+
+.name__input {
+    display: flex;
+    gap: 2.9rem;
+
+}
+
+.input {
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.email,
+.password__container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    line-height: 2rem;
+}
+
+.email__input,
+.password__input {
+    width: 23rem;
+    height: 2.5rem;
+}
+
+.btn__container {
+    margin-left: 9rem;
+}
+
+
+.btn {
+    display: inline-block;
+    background: var(--color-danger);
+    color: var(--color-white);
+    border: 1px solid transparent;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    transition: var(--transition);
+border-radius: 0.4rem;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.login__box {
+    margin-left: -3rem;
+}
